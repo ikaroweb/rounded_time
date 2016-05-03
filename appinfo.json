@@ -1,0 +1,100 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location",
+        "health"
+    ],
+    "companyName": "Ikaroweb",
+    "enableMultiJS": true,
+    "longName": "1st watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "data/Pebble_25x25_Sunny_day.pdc",
+                "name": "ICON_SUN",
+                "targetPlatforms": null,
+                "type": "raw"
+            },
+            {
+                "file": "data/Pebble_25x25_Generic_weather.pdc",
+                "name": "ICON_GENERIC",
+                "targetPlatforms": null,
+                "type": "raw"
+            },
+            {
+                "file": "fonts/Round Regular.ttf",
+                "name": "Round_Regular_14",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/Round Regular.ttf",
+                "name": "Round_Regular_20",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/Round Regular.ttf",
+                "name": "Round_Regular_48",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "data/shoes_25.pdc",
+                "name": "IMAGE_SHOES",
+                "targetPlatforms": null,
+                "type": "raw"
+            },
+            {
+                "file": "fonts/Rounds Black.otf",
+                "name": "Rounds_Black_14",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/Rounds Black.otf",
+                "name": "Rounds_Black_48",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/Rounds Black.otf",
+                "name": "Rounds_Black_20",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "data/Pebble_25x25_Heavy_rain.pdc",
+                "name": "ICON_RAIN",
+                "targetPlatforms": null,
+                "type": "raw"
+            },
+            {
+                "file": "data/Pebble_25x25_Cloudy_day.pdc",
+                "name": "ICON_CLOUD",
+                "targetPlatforms": null,
+                "type": "raw"
+            },
+            {
+                "file": "data/Pebble_25x25_Sunset.pdc",
+                "name": "ICON_SUNSET",
+                "targetPlatforms": null,
+                "type": "raw"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "1st watchface",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "6e934fc8-a429-4c82-854f-89ef0e956840",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
